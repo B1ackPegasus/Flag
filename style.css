@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.flag {
+    background-color: blue;
+    width: 900px;
+    height: 600px;
+    position: relative;
+
+}
+
+div.flag>p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0px;
+    letter-spacing: 1em;
+
+}
+
+div.flag>div {
+    background-color: yellow;
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    width: 900px;
+}
+
+div.flag>div div {
+    background-color: red;
+    font-family: inherit;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    left: 425px;
+    text-align: center;
+    font-size: 15px;
+    top: -25px;
+}
+
+p {
+    margin: 0px;
+    text-align: center;
+
+}
+
+div.flag>div div p {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
